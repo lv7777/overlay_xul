@@ -1,0 +1,5 @@
+content foo content/
+
+skin foo cookie skindir/
+
+overlay chrome://browser/content/browser.xul chrome://foo/content/hello.xul

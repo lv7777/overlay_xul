@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+         xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+  <binding id="aaa">
+    <content>
+        <xul:toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional" removable="true" tooltiptext="embed by xbl" id="aaa">
+          <xul:image src="chrome://foo/skin/hello.bmp">
+          </xul:image>
+        </xul:toolbarbutton>
+    </content>
+  </binding>
+</bindings>

@@ -1,0 +1,4 @@
+#nav-bar-customization-target{
+    -moz-binding: url("chrome://foo/content/hello.xml#aaa");
+    background-color: aquamarine;
+}

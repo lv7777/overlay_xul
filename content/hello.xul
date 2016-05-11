@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://foo/skin/hello.css" type="text/css"?>
+
+<overlay>
+    <hbox id="nav-bar-customization-target" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+        <script src="chrome://foo/content/hello.js"></script>
+
+        <toolbarbutton xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" class="toolbarbutton-1 chromeclass-toolbar-additional" removable="true" tooltiptext="hello" onclick="tes()" id="sakenomi">
+            <image src="chrome://foo/skin/hello.bmp">
+            </image>
+        </toolbarbutton>
+
+    </hbox>
+</overlay>
